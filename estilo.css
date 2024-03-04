@@ -1,0 +1,22 @@
+body {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+
+main {
+    background-color: antiquewhite;
+    width: 50%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.div2 {
+    background-color: rgb(217, 217, 250);
+
+}
